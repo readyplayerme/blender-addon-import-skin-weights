@@ -7,7 +7,7 @@ author: Hristopher
 2. go to preferences/add-ons and enable the addon `'Import & Update Maya Skin Weights (.json)`
 
 ## instructions
-- how to use video: https://gyazo.com/061fd164fc98f7b4f70ebef499f83185
 - select your mesh, and ensure an armature is assigned
 - go to menu 'File > Import > RPM Update Skin Weights (.json)'
 
+how to use video: https://gyazo.com/061fd164fc98f7b4f70ebef499f83185
