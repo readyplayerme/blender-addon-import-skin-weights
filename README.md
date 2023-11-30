@@ -1,4 +1,4 @@
-# blender-addon-update-skin-weights
+# Import skin-weights from Maya in Blender
 Update the skin weights of the currently selected object with those of a maya skin cluster  
 author: Hristopher
 
