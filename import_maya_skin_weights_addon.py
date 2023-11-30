@@ -1,24 +1,22 @@
 import json
-
 import bpy
 from bpy.types import Operator, Context, Object
 from bpy.props import StringProperty
 from bpy_extras.io_utils import ImportHelper
 
 
-NAME = 'RPM Update Skin Weights (.json)'
-DESCRIPTION = 'Update the skin weights of the currently selected object with those of a maya skin cluster'
-
 bl_info = {
-    'name': 'Import RPM Update Skin Weights (.json)',
+    'name': 'Import & Update Maya Skin Weights (.json)',
     'description': 'Update the skin weights of the currently selected object with those of a maya skin cluster',
     'version': (0, 1),
     'blender': (2, 80, 0),
     'location': 'File > Import > RPM Update Skin Weights (.json)',
-    'warning': '',
-    'wiki_url': '',
+    'wiki_url': 'https://github.com/readyplayerme/blender-addon-import-skin-weights',
     'category': 'Import',
 }
+
+NAME = bl_info["name"]
+DESCRIPTION = bl_info["description"]
 
 
 def update_vertex_weights(obj: Object, filepath: str):
