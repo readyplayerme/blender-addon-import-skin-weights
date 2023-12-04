@@ -8,7 +8,8 @@ author: Hristopher
 
 ## instructions
 - select your mesh, and ensure an armature is assigned
-- go to menu 'File > Import > RPM Update Skin Weights (.json)'  
+- go to menu 'File > Import > RPM Update Skin Weights (.json)'
+
 how to use video: https://gyazo.com/061fd164fc98f7b4f70ebef499f83185
 - [ ] TODO instructions on how to export skinweights json from Maya
 
